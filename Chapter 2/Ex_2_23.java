@@ -7,21 +7,21 @@ import java.util.Scanner;
 	Scanner input = new Scanner(System.in);//New Scanner
 	
 	//User enters distance
-	System.out.print("Enter the Driving Distance");
+	System.out.print(" Enter the Driving Distance ");
 	double distance=input.nextDouble();
 	
 	//User enters Miles per Gallon
-	System.out.print("Enter miles per gallon");
-	double miles per gallon=input.nextDouble();
+	System.out.print(" Enter miles per gallon ");
+	double milesPerGallon=input.nextDouble();
 			
 	//User enter price per gallon
-	System.out.print("Enter price per gallon");
-	double price per gallon=input.nextDouble();
+	System.out.print(" Enter price per gallon ");
+	double pricePerGallon=input.nextDouble();
 	
 	// Compute the cost of driving
-			double cost of driving = (distance / miles per gallon) * price per gallon;
+			double costOfDriving = (distance / milesPerGallon) * pricePerGallon;
 
 			// Display result
-			System.out.println("The cost of driving is $" + cost of driving);
+			System.out.println(" The cost of driving is $ " + costOfDriving);
 	}
 }
