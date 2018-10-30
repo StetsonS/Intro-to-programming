@@ -13,13 +13,13 @@ class Exercise4_17 {
 		System.out.print(" Enter a month, only 3 letters please uppercase the first letter ");
 		String month = input.next();
 		
-		if (month is Jan or month is Mar or month is May){
+		if (month = Jan Mar May Jul Aug Oct Dec){
 			System.out.print(" That month has 31 days ");
 		}
-		else if (month is Apr or month is )
+		else if (month = Apr Jun Sep Nov )
 			System.out.print(" that month has 30 days ");
 			
-		else if (month is Fev) {
+		else if (month is Feb) {
 			if 
 		}
 	}
