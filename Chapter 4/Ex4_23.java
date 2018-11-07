@@ -1,4 +1,6 @@
-		
+	/* Author Stetson Serna
+	   Date 11/7/2018
+	   */
 		import java.util.Scanner;
 		 
 		 class Ex4_23 {
