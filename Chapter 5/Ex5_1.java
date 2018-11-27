@@ -1,3 +1,7 @@
+/* Author: Stetson Serna
+ * Date: 11/26/18
+ */
+
 import java.util.Scanner;
 
 
@@ -22,9 +26,9 @@ import java.util.Scanner;
 
 		while (number != 0) {
 			if (number > 0)
-				positives++;	
+					positives++;	
 			else
-				negatives++;	
+					negatives++;	
 			total += number;	
 			count++;				
 			number = input.nextInt();
