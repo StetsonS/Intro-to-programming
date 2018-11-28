@@ -17,8 +17,21 @@ class Ex_5_17 {
 			System.out.print(" Enter height of pyramid (1 -15. ");
 			user = scan.nextInt();
 		}
-		
+		// Counts rows
 		for (int count = 1; count <= user; count++) {
+			//print spaces
+			for (int space = 1, space <= (user - count); space ++) {
+				System.out.print(" ");
+			}
+			//print left side
+			for (int left = count; left>= 1; left--){
+				System.out.print(left + "% ");
+			}
+			//Print right side 
+			for ( int right= 2; right <=
+			
+			// End row
+			System.out.println();
 		}
 	}
 }
