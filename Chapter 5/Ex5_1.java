@@ -1,47 +1,29 @@
 /* Author: Stetson Serna
- * Date: 11/26/18
+ * Date: 11/28/18
  */
 
 import java.util.Scanner;
 
-
- class Ex5_1 {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-
-		int positives = 0; 	
-		int negatives = 0; 
-		int count = 0;			
-		double total = 0;		
-
-
-	
-		System.out.print("Enter an integer, the input ends if it is 0: ");
-		int number = input.nextInt();
-
-		if (number == 0) {	
-			System.out.println("No numbers are entered except 0");
-			System.exit(1);
-		}
-
-		while (number != 0) {
-			if (number > 0)
-					positives++;	
-			else
-					negatives++;	
-			total += number;	
-			count++;				
-			number = input.nextInt();
-		}
-
+	class Ex5_1
+	 public static void main(String[] args) 
+	 Scanner input = new Scanner(System.in);
+		System.out.print(" Enter a positive or negative number (0 to quit)");
+		 int num = input.nextInt();
 		
-		double average = total / count;
-
-	
-		System.out.println(
-			"The number of positive is " + positives +
-			"\nThe number of negatives is " + negatives +
-			"\nThe total is total " + total +
-			"\nThe average is " + average);
-	}
+		 int sum = 0;
+		 int positiveCount= 0;
+		 int negativeCount= 0;
+		 sum = positiveCount + negativeCount;
+		 while (num !=0)
+			 if(num <= -1){
+					negativeCount++;
+			 }
+			 else {
+					positiveCount++;
+		
+				System.out.print(" Positive number " + positiveCount);
+				System.out.print(" Negative number " + negativeCount);
+				System.out.print(" Total " + sum);
+				}
+	 `}
 }
