@@ -1,7 +1,7 @@
-/* Author: Stetson Serna
- * Date: 11/28/18
+/* Author: Stetson Serna 
+ * Date: 11/29/18
  */
-
+ 
 import java.util.Scanner;
 
 	class Ex5_1
