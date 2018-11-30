@@ -10,20 +10,24 @@ import java.util.Scanner;
 		System.out.print(" Enter a positive or negative number (0 to quit)");
 		 int num = input.nextInt();
 		
+		 if(num == 0) {;
+			 System.exit(1);
+		 }
 		 int sum = 0;
 		 int positiveCount= 0;
 		 int negativeCount= 0;
-		 sum = positiveCount + negativeCount;
-		 while (num !=0)
-			 if(num <= -1){
+		  sum = positiveCount + negativeCount;
+		 while (num !=0) {
+			 if(num <= -1)
 					negativeCount++;
-			 }
-			 else {
+			 
+			 else 
 					positiveCount++;
 		
-				System.out.print(" Positive number " + positiveCount);
-				System.out.print(" Negative number " + negativeCount);
-				System.out.print(" Total " + sum);
+			 num=input.nextInt();
+			 }
+				System.out.println(" Positive number " + positiveCount);
+				System.out.println(" Negative number " + negativeCount);
+				System.out.println(" Total " + sum );
 				}
-	 `}
 }
