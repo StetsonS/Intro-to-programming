@@ -1,6 +1,6 @@
 /*
 Author: Stetson Serna
-Date: 11/26/2018
+Date: 12/3/2018
 */
 
 class Ex_5_17 {
@@ -10,26 +10,26 @@ class Ex_5_17 {
 	
 		// Prompt the user
 		System.out.print(" Enter The Height of Pyramid ");
-		user = scan.nextInt();
+		user = input.nextInt();
 		
 		// Re-prompt user if necessary
 		while( user > 15 || user < 1) {
 			System.out.print(" Enter height of pyramid (1 -15. ");
-			user = scan.nextInt();
+			user = input.nextInt();
 		}
 		// Counts rows
 		for (int count = 1; count <= user; count++) {
 			//print spaces
-			for (int space = 1, space <= (user - count); space ++) {
+			for (int space = 1; space <= (user - count); space ++) {
 				System.out.print(" ");
 			}
 			//print left side
 			for (int left = count; left>= 1; left--){
-				System.out.print(left + "% ");
+				System.out.print(left + "%3d");
 			}
 			//Print right side 
-			for ( int right= 2; right <=
-			
+			for ( int right= 2; right <= count; right++) {
+			}
 			// End row
 			System.out.println();
 		}
