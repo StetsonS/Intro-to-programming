@@ -1,4 +1,4 @@
-import java.util.Scanner
+import java.util.Scanner;
 
 class PalindromeCheck {
 	public static void main(String[] args) {
@@ -14,9 +14,16 @@ class PalindromeCheck {
 		
 		//Reverse number
 		num = user;
-		while (num != 0 {
+		while (num != 0) {
 			remain = num % 10;
 			reverse = reverse * 10 + remain;
-			num/=10
-		}	}
+			num/=10;
+		}
+		//check if palindromej
+		if ( reverse == user)(
+			System.out.println(user + " is a palindrome ");
+		}
+		else{
+			System.out.println(user + " is not a palindrome ");as
+		}
 }
