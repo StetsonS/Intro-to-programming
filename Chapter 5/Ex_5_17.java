@@ -1,4 +1,4 @@
-/*
+/*																												/*
 Author: Stetson Serna
 Date: 12/3/2018
 */
@@ -16,7 +16,7 @@ class Ex_5_17 {
 		
 		// Re-prompt user if necessary
 		while( user > 15 || user < 1) {
-			System.out.print(" Enter height of pyramid (1 -15. ");
+			System.out.print(" Enter height of pyramid (1 -15) ");
 			user = input.nextInt();
 		}
 		// Counts rows
@@ -27,10 +27,11 @@ class Ex_5_17 {
 			}
 			//print left side
 			for (int left = count; left>= 1; left--){
-				System.out.print(left + "%3d");
+				System.out.printf("%3d",left);
 			}
 			//Print right side 
 			for ( int right= 2; right <= count; right++) {
+				System.out.printf("%3d",right);
 			}
 			// End row
 			System.out.println();
