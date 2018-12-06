@@ -4,6 +4,8 @@ class Ex_6_3 {
 		int num = 0;
 		int remain = 0;
 		int reverse = 0;
+	
+
 		
 		num = user;
 			while (num != 0) {
