@@ -3,6 +3,8 @@ Author: Stetson Serna
 Date: 12/3/2018
 */
 
+import java.util.Scanner;
+
 class Ex_5_17 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
