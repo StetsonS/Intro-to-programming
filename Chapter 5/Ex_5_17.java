@@ -23,7 +23,7 @@ class Ex_5_17 {
 		for (int count = 1; count <= user; count++) {
 			//print spaces
 			for (int space = 1; space <= (user - count); space ++) {
-				System.out.print(" ");
+				System.out.print("   ");
 			}
 			//print left side
 			for (int left = count; left>= 1; left--){
