@@ -26,6 +26,7 @@ import java.util.Scanner;
 		
 			 num=input.nextInt();
 			 }
+	
 				System.out.println(" Positive number " + positiveCount);
 				System.out.println(" Negative number " + negativeCount);
 				System.out.println(" Total " + sum );
