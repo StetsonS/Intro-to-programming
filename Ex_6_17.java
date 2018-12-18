@@ -1,3 +1,9 @@
+/*
+Author Stetson Serna
+Date 12/18/18
+*/
+
+
 class Ex_6_17 {
 	public static void main(String[] args) {
 		for (rows)&
