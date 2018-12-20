@@ -6,7 +6,7 @@
 import java.util.Scanner; 
 	class Ex6_37 {
 
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			Scanner input = new Scanner(System.in);
 			System.out.print("Type in a number: ");
 			int num = input.nextInt();
@@ -24,16 +24,16 @@ import java.util.Scanner;
 				num = num /10;
 			}
 			if(width < size){
-				format = Integer.toString(number);
+			format = Integer.toString(number);
 			
 				
 			}
 			else{
-				width = width - size;
-				for(int counter = 0; counter < width; counter++){
+			width = width - size;
+			for(int counter = 0; counter < width; counter++){
 					format+= "o";
-				}
-				format += number;
+			}
+			format += number;
 			}
 			return format;
 		}
